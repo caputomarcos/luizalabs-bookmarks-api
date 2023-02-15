@@ -42,5 +42,3 @@ A API deve atender aos seguintes requisitos:
 * O desafio deve ser enviado preferencialmente como repositório GIT público (Github ou Gitlab) e deve estar com um modelo de licença de código aberto
 * Siga boas práticas de desenvolvimento, de qualidade e de governança de código
 * Inclua instruções claras sobre como instalar, testar e executar seu código.
-
-O desafio será avaliado de acordo com a posição e o nível que você está se candidatando. Todos os desenvolvedores podem participar do processo de avaliação técnica, portanto, certifique-se de incluir orientações claras para os avaliadores.
