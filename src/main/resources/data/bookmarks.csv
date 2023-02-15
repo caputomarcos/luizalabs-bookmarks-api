@@ -1,0 +1,11 @@
+url,title,tags
+https://luizalabs.test/produto/1, "Produto 1", DISPONIVEL
+https://luizalabs.test/produto/2, "Produto 2", DISPONIVEL
+https://luizalabs.test/produto/3, "Produto 3", DISPONIVEL
+https://luizalabs.test/produto/4, "Produto 4", DISPONIVEL|ESTOQUE
+https://luizalabs.test/produto/5, "Produto 5", FALTA
+https://luizalabs.test/produto/6, "Produto 6", FALTA
+https://luizalabs.test/produto/7, "Produto 7", FALTA
+https://luizalabs.test/produto/8, "Produto 9", ESTOQUE
+https://luizalabs.test/produto/10, "Produto 10", ESTOQUE
+https://luizalabs.test/produto/11, "Produto 11", ESTOQUE

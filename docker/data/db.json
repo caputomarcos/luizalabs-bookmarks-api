@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "price": 19.99,
+      "image": "https://example.com/product1.jpg",
+      "brand": "Brand A",
+      "id": "1",
+      "title": "Product 1",
+      "reviewScore": 4.2
+    },
+    {
+      "price": 29.99,
+      "image": "https://example.com/product2.jpg",
+      "brand": "Brand B",
+      "id": "2",
+      "title": "Product 2",
+      "reviewScore": 3.8
+    },
+    {
+      "price": 14.99,
+      "image": "https://example.com/product3.jpg",
+      "brand": "Brand C",
+      "id": "3",
+      "title": "Product 3",
+      "reviewScore": 4.5
+    },
+    {
+      "price": 12.99,
+      "image": "https://example.com/product4.jpg",
+      "brand": "Brand D",
+      "id": "4",
+      "title": "Product 4",
+      "reviewScore": 4.0
+    },
+    {
+      "price": 24.99,
+      "image": "https://example.com/product5.jpg",
+      "brand": "Brand E",
+      "id": "5",
+      "title": "Product 5",
+      "reviewScore": 4.6
+    },
+    {
+      "price": 17.99,
+      "image": "https://example.com/product6.jpg",
+      "brand": "Brand F",
+      "id": "6",
+      "title": "Product 6",
+      "reviewScore": 3.9
+    },
+    {
+      "price": 9.99,
+      "image": "https://example.com/product7.jpg",
+      "brand": "Brand G",
+      "id": "7",
+      "title": "Product 7",
+      "reviewScore": 4.8
+    },
+    {
+      "price": 21.99,
+      "image": "https://example.com/product8.jpg",
+      "brand": "Brand H",
+      "id": "8",
+      "title": "Product 8",
+      "reviewScore": 4.3
+    },
+    {
+      "price": 11.99,
+      "image": "https://example.com/product9.jpg",
+      "brand": "Brand I",
+      "id": "9",
+      "title": "Product 9",
+      "reviewScore": 4.1
+    }
+  ]
+}
