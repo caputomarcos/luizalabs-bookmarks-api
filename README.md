@@ -42,3 +42,70 @@ A API deve atender aos seguintes requisitos:
 * O desafio deve ser enviado preferencialmente como repositório GIT público (Github ou Gitlab) e deve estar com um modelo de licença de código aberto
 * Siga boas práticas de desenvolvimento, de qualidade e de governança de código
 * Inclua instruções claras sobre como instalar, testar e executar seu código.
+
+---
+
+# Pré-requisitos
+
+Antes de executar a API, é necessário ter os seguintes pré-requisitos instalados em seu computador:
+
+    - Java 11
+    - Docker
+    - Docker Compose
+    
+
+# Instalação
+
+Para clonar o repositório do projeto, você pode executar o seguinte comando no seu terminal:
+    
+    git clone https://github.com/caputomarcos/luizalabs-bookmarks-api.git
+    
+Isso irá criar uma cópia do repositório em sua máquina local. Certifique-se de ter o Git instalado em sua máquina antes de executar este comando.
+
+Após clonar o repositório, execute o seguinte comando para iniciar o servidor:
+
+    ./run start
+
+A API estará disponível em http://localhost:18080.
+
+## Documentação
+
+A documentação da API está disponível no Swagger. Você pode acessá-la em:
+
+http://localhost:18080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+
+## Como usar
+
+Antes de usar a API, você precisará criar uma conta de usuário. Para isso, utilize o seguinte comando cURL:
+
+    curl -X 'POST' 'http://localhost:18080/api/users' \
+      -H 'accept: */*' \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "name": "[seu_nome]",
+        "email": "[seu_email]",
+        "password": "[sua_senha]"
+      }'
+
+Após criar a conta, você poderá fazer login e começar a usar a API. Para fazer login, utilize o seguinte comando cURL:
+
+    curl -X 'POST' 'http://localhost:18080/api/auth/login' \
+      -H 'accept: */*' \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "username": "[seu_email]",
+        "password": "[sua_senha]"
+      }'
+
+Isso retornará um token de acesso que você deverá utilizar em todas as suas requisições à API. Por exemplo, para criar um novo bookmark, utilize o seguinte comando cURL:
+
+    curl -X POST http://localhost:18080/api/bookmarks \
+        -H 'Content-Type: application/json' \
+        -H 'Authorization: Bearer [SEU_TOKEN_JWT]' \
+        -d '{
+                "title": "Product 9",
+                "url": "http://example.com",
+                "description": "Bookmark Description",
+                "tags": ["tag1", "tag2"]
+            }'
+Lembre-se de substituir [SEU_TOKEN_JWT] pelo token JWT que você obteve ao fazer login na API.
