@@ -64,7 +64,7 @@ Isso irá criar uma cópia do repositório em sua máquina local. Certifique-se 
 
 Após clonar o repositório, execute o seguinte comando para iniciar o servidor:
 
-    ./run start
+    ./run.sh start
 
 A API estará disponível em http://localhost:18080.
 
